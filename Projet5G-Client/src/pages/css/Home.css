@@ -1,0 +1,10 @@
+/*  formatting btn primary with custom violet color  */
+
+
+
+  /* menu deroulant departements */
+.dropdown-scroll {
+        max-height: 200px;
+        overflow-y: auto;
+       }
+

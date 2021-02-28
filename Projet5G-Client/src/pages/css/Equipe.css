@@ -1,0 +1,34 @@
+/* Flip Cards CSS */
+
+.card-container div {
+    display: grid;
+    perspective: 600px;
+    border-radius: 10px;
+    padding: 5px 10px 10px 10px;
+}
+
+.card-flip {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    grid-template-areas: "frontAndBack";
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+}
+
+.card-flip div {
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.front {
+    grid-area: frontAndBack;
+}
+
+.back {
+    grid-area: frontAndBack;
+    transform: rotateY(-180deg);  
+}
+
+.card-container:hover .card-flip {
+    transform: rotateY(180deg);
+}

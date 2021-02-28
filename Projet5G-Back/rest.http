@@ -1,0 +1,10 @@
+POST   http://localhost:3001/api/departements/add
+Content-Type: application/json
+
+
+
+
+
+
+
+

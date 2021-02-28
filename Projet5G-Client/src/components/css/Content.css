@@ -1,0 +1,7 @@
+.content {
+	background-color: #9e9076;
+/* 	background-image: url('../public/bg.jpg'); */
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size: contain;
+}
